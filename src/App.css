@@ -5,6 +5,14 @@ body {
   background-color: #f8f8f8;
 }
 
+p {
+  color: #000000;
+}
+
+h2 {
+  color: #000000;
+}
+
 .container {
   margin: 0;
   background: #fff;
@@ -28,12 +36,14 @@ body {
 .about-me {
   display: flex;
   justify-content: space-between;
-  align-items:center;
+  align-items: center;
   gap: 20px;
+  color: #000000;
 }
 
 header {
   text-align: center;
+  color: #000000;
 }
 
 section {
@@ -64,11 +74,13 @@ footer {
   display: flex;
   align-items: center;
   gap: 16px;
+  color: #000000;
 }
 
 .skills-list span {
   width: 120px;
   font-weight: 500;
+  color: #000000;
 }
 
 .skills-list progress {
@@ -95,7 +107,7 @@ footer {
 
 .project-card {
   background: #fff;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
   border-radius: 10px;
   padding: 24px 20px;
   width: 520px;
@@ -107,7 +119,7 @@ footer {
 
 .project-card:hover {
   transform: translateY(-6px) scale(1.03);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.13);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.13);
 }
 
 .project-card h3 {

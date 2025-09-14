@@ -4,7 +4,7 @@ import { SiLeetcode, SiHackerrank, SiCodechef } from "react-icons/si";
 function Footer() {
     return (
         <footer>
-            <p>Contact: gurugurakesh9@example.com || +91 7396257998</p>
+            <p>Contact: gurugurakesh9@gmail.com || +91 7396257998</p>
             <div style={{ display: "flex", justifyContent: "center", gap: "16px", marginTop: "10px" }}>
                 <a href="https://www.instagram.com/rakesh_gurugu?igsh=MTk5MDQxbjQxNmt0OA==">
                     <FaInstagram size={24} color="#E4405F" />
