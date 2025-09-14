@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+.container {
+  margin: 0;
+  background: #fff;
+  padding: 32px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.09);
+  border-radius: 10px;
+}
+
+.profile-image {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.about-text {
+  padding-top: 5px;
+  font-size: large;
+}
+
+.about-me {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  gap: 20px;
+}
+
+header {
+  text-align: center;
+}
+
+section {
+  margin: 36px 0;
+}
+
+.projects {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background: #f0f0f0;
+  padding: 16px;
+  border-radius: 6px;
+  width: 45%;
+}
+
+footer {
+  text-align: center;
+  color: #888;
+  margin-top: 30px;
+}
+
+.skills-list div {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.skills-list span {
+  width: 120px;
+  font-weight: 500;
+}
+
+.skills-list progress {
+  width: 200px;
+  height: 16px;
+  accent-color: #ffffff;
+}
+
+.skill-value {
+  margin-left: 8px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.projects-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.project-card {
+  background: #fff;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  border-radius: 10px;
+  padding: 24px 20px;
+  width: 520px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.project-card:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.13);
+}
+
+.project-card h3 {
+  margin: 0 0 8px 0;
+  font-size: 1.3rem;
+  color: #1a1a1a;
+}
+
+.project-card p {
+  margin: 0 0 12px 0;
+  color: #444;
+}
+
+.project-card a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.project-card a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
