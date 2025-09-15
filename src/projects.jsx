@@ -37,7 +37,7 @@ function Projects() {
                 <li className="project-card">
                     <h3>Medium clone</h3>
                     <p>A clone of the Medium platform built with React.</p>
-                    <a href="https://github.com/path-tw/medium-code-commanders" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/RAKESHGURUGU/medium-code-commanders.git" target="_blank" rel="noopener noreferrer">
                         View Project
                     </a>
                 </li>
